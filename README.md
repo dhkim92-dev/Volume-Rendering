@@ -16,7 +16,13 @@ MRI나 CT의 밀도 샘플링 기계를 이용하여 얻은 볼륨 데이터를 
 위에 언급하였듯 각각의 프래그먼트들은 해당 프래그먼트의 위치 좌표를 색상으로 하여 저장을 해두었기 때문에 텍스쳐의 rgb 값을 읽어와  
 좌표로 사용하여 빛의 진행 방향을 결정합니다.  
 이 빛의 진행 방향으 나타내는 노멀 벡터를 구하고 이것에 샘플링 레이트를 곱하여 스텝당 빛의 진행 거리로 설정하고  
-3D 텍스쳐로 전달한 볼륨 데이터 값(Intensity) 을 탐색하여 tff 테이블의 색상값을 얻어오고 현재 프래그먼트의 최종 색상값과 알파값을 구합니다.   
+3D 텍스쳐로 전달한 볼륨 데이터 값(Intensity) 을 탐색하여 tff 테이블의 색상값을 얻어오고 현재 프래그먼트의 최종 색상값과 알파값을  
+구합니다.   
+
+# 결과물
+------------
+![result1.png](https://github.com/elensar92/Volume-Rendering/blob/master/result1.png)
+![result2.png](https://github.com/elensar92/Volume-Rendering/blob/master/result2.png)
 
 
 # Enviroment
